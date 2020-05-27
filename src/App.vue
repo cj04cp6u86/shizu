@@ -1,7 +1,17 @@
 <template>
   <div id="app">
-    <nav-bar/>
-    <Home/>
+
+    <!-- <nav-bar/>
+    <Home/> -->
+
+    <!-- <router-link to="/home" replace active-class="active">首頁</router-link>
+    <router-link to="/narbar" replace active-class="active">nav</router-link> -->
+    <router-link to="/home" replace >首頁</router-link>
+    <router-link to="/narbar" replace >nav</router-link>
+    <keep-alive>
+      <router-view></router-view>
+    </keep-alive>
+    
   </div>
 </template>
 
@@ -14,6 +24,18 @@ export default {
   components: {
     Home,
     NavBar
+  },
+  methods: {
+    // profileClick(){
+    //   this.$router.push({
+    //     path: "/profile",
+    //     query: {
+    //       name: 'kobe',
+    //       age: 18,
+    //       height: 188
+    //     }
+    //   })
+    // }
   }
 }
 </script>
