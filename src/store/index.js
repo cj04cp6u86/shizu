@@ -33,6 +33,12 @@ const store = new Vuex.store({
   },
   actions: {
     //異步操作
+    aUpdateInfo(context, payload){//在組件裡的函式調用 this.$stor.dispatch('aUpdateInfo', payload)
+      setTimeout(() => {
+        context.commit("mutations裡的函式名稱")
+      })
+    },
+
   },
   getters: {
     //類似計算屬性
@@ -48,8 +54,22 @@ const store = new Vuex.store({
       }
     }
   },
-  modules: {
+  modules: {//使用方式 $store.state.a取得物件與內容
+            //外面要調用 modules裡的模塊方式跟調用根模塊一樣方    
+    a: {
+      state: {
 
+      },
+      mutations: {
+        //組建使用 this.$store.commit 也是直接使用commit 但函式名稱不要重複
+       },
+      actions: {
+
+      },
+      getters: {
+
+      }
+    }
   }
 })
 
