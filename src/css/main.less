@@ -11,12 +11,21 @@ html {
   padding:0px;
 }
 
+a{
+  text-decoration: none;
+  color:  #fff;
+
+  &:hover{
+    color: rgb(197, 196, 196);
+  }
+}
+
 ul li{
   list-style-type:none;
 }
 
 .top-bar {
-  height: 50px;
+  height: 48px;
   background-color: #000;
   padding:0 14px;
   display: flex;
@@ -25,15 +34,45 @@ ul li{
 }
 
 .left-menu{
-  
+  // position: relative;
+  &:hover{
+    .nav{
+      display: block;
+    }
+  }
 
   .nav{
+    display: none;
     position: absolute;
     top: 48px;
     left: 0;
     bottom: 0;
     right: 0;
     background-color: #000;
+    padding-top: 60px;
+
+    li{
+      width: 80%;
+      margin:  0 auto;
+      border-bottom: 1px solid #4e4e4e;
+
+      a{
+        display: block;
+        line-height: 44px;
+        font-size: 14px;
+        
+      }
+
+      &:last-child a{
+        display: inline-block;
+        margin-right: 6px;
+      }
+
+      span{
+        color: #fff;
+        font-size: 14px;
+      }
+    }
   }
 
   .menu-icon{
@@ -63,6 +102,7 @@ ul li{
     }
 
     &:hover{
+
       li:nth-child(1){  
         transform: rotate(41deg);
       }
@@ -76,10 +116,16 @@ ul li{
   }
 }
 
-// body {        
-//   /* background:#fff url( './assets/home/shizu.jpg' ) center fixed no-repeat;    
-//   background-size: 100vw 100%; */
-//   margin:0px;
-//   padding:0px;
+// #box1 {
+//   height: 400px;
+//   width: 400px;
+//   background-color: #bfa;
+//   margin:0 auto;
+
+//   #box2{
+//     height: 200px;
+//     width: 200px;
+//     background-color: rgb(170, 231, 255);
+//   }
 // }
 

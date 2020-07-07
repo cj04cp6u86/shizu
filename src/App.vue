@@ -11,7 +11,7 @@
       <router-view></router-view>
     </keep-alive> -->
 
-    <div class="top-bar">
+    <!-- <div class="top-bar">
       <div class="left-menu">
         <ul class="menu-icon">
           <li></li>
@@ -38,6 +38,12 @@
         <a href="">
           <i class="fas fa-uesr"></i>
         </a>
+      </div>
+    </div> -->
+    
+    <div class="main-navigation">
+      <div class="navbar-wrapper">
+        <!-- <a class=""><img src="./assets/home/logo.jpg" alt="喜日設計"></a> -->
       </div>
     </div>
   </div>
@@ -71,5 +77,4 @@ export default {
 <style lang='less'>
 @import "./fa/css/all.min.css";
 @import "./css/main.less";
-
 </style>
