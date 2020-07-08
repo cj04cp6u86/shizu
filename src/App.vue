@@ -43,7 +43,62 @@
     
     <div class="main-navigation">
       <div class="navbar-wrapper">
-        <!-- <a class=""><img src="./assets/home/logo.jpg" alt="喜日設計"></a> -->
+        <!-- logo圖標 -->
+        <div class="navber-header-wrapper">
+          <a class=""><img class="logo-img" src="./assets/home/logo.jpg" alt="喜日設計 3D列印"></a>
+        </div>
+        <div class="navbar-menu-wrapper">
+          <ul class="text-primary-color">
+            <li class="nav-dropdown">
+              <a href="">關於喜日<span class="caret"></span>
+                <ul>
+                  <li><a href=""></a></li>
+                  <li><a href=""></a></li>
+                </ul>
+              </a>
+            </li>
+            <li class="nav-dropdown">
+              <a href="">3D列印<span class="caret"></span>
+                <ul>
+                  <li><a href=""></a></li>
+                  <li><a href=""></a></li>
+                </ul>
+              </a>
+            </li>
+            <li class="nav-dropdown">
+              <a href="">客製化禮品<span class="caret"></span>
+                <ul>
+                  <li><a href=""></a></li>
+                  <li><a href=""></a></li>
+                </ul>
+              </a>
+            </li>
+            <li class="nav-dropdown">
+              <a href="">產品設計<span class="caret"></span>
+                <ul>
+                  <li><a href=""></a></li>
+                  <li><a href=""></a></li>
+                </ul>
+              </a>
+            </li>
+            <li class="nav-dropdown">
+              <a href="">模型製作<span class="caret"></span>
+                <ul>
+                  <li><a href=""></a></li>
+                  <li><a href=""></a></li>
+                </ul>
+              </a>
+            </li>
+            <li class="nav-dropdown">
+              <a href="">我有問題<span class="caret"></span>
+                <ul>
+                  <li><a href=""></a></li>
+                  <li><a href=""></a></li>
+                </ul>
+              </a>
+            </li>
+          </ul>
+        </div>        
       </div>
     </div>
   </div>
