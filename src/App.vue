@@ -42,15 +42,15 @@
     </div> -->
     
     <div class="main-navigation">
-      <div class="navbar-wrapper">
+      <div class="navbar-wrapper clearfix">
         <!-- logo圖標 -->
-        <div class="navber-header-wrapper">
-          <a class=""><img class="logo-img" src="./assets/home/logo.jpg" alt="喜日設計 3D列印"></a>
+        <div class="navber-header-wrapper clearfix">
+          <a class="" href="javascript:;"><img class="logo-img" src="./assets/home/logo.jpg" alt="喜日設計 3D列印"></a>
         </div>
-        <div class="navbar-menu-wrapper">
-          <ul class="text-primary-color">
+        <div class="navbar-menu-wrapper clearfix">
+          <ul class="text-primary-color clearfix">
             <li class="nav-dropdown">
-              <a href="">關於喜日<span class="caret"></span>
+              <a href="">關於喜日<i class="fas fa-angle-down"></i></span>
                 <ul>
                   <li><a href=""></a></li>
                   <li><a href=""></a></li>
@@ -58,7 +58,7 @@
               </a>
             </li>
             <li class="nav-dropdown">
-              <a href="">3D列印<span class="caret"></span>
+              <a href="">3D列印<i class="fas fa-angle-down"></i></span>
                 <ul>
                   <li><a href=""></a></li>
                   <li><a href=""></a></li>
@@ -66,7 +66,7 @@
               </a>
             </li>
             <li class="nav-dropdown">
-              <a href="">客製化禮品<span class="caret"></span>
+              <a href="">客製化禮品<i class="fas fa-angle-down"></i></span>
                 <ul>
                   <li><a href=""></a></li>
                   <li><a href=""></a></li>
@@ -74,7 +74,7 @@
               </a>
             </li>
             <li class="nav-dropdown">
-              <a href="">產品設計<span class="caret"></span>
+              <a href="">產品設計<i class="fas fa-angle-down"></i></span>
                 <ul>
                   <li><a href=""></a></li>
                   <li><a href=""></a></li>
@@ -82,7 +82,7 @@
               </a>
             </li>
             <li class="nav-dropdown">
-              <a href="">模型製作<span class="caret"></span>
+              <a href="">模型製作<i class="fas fa-angle-down"></i></span>
                 <ul>
                   <li><a href=""></a></li>
                   <li><a href=""></a></li>
